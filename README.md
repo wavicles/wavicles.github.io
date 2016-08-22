@@ -1,6 +1,6 @@
 This repository is for my GSoC github page <http://wavicles.github.io>
 
-The site gives information about my work for Google Summer of Code with mentor organization FOSSASIA <http://pslab.fossasia.org>
+The site gives information about my work for **Google Summer of Code** with my mentoring organization **FOSSASIA** <http://pslab.fossasia.org>
 
 For GSoC my work was related to developing open source tech for science experiments using Open Source tools like ExpEYES and PSLab
 * The PSLab project is inspired from ExpEYES  <http://expeyes.in>
