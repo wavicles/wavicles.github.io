@@ -1,2 +1,1 @@
-# wavicles.github.io
-Learning github pages basics :)
+# praveenpatil.github.io
