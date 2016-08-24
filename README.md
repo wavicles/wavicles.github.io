@@ -7,5 +7,7 @@ For GSoC my work was related to developing open source tech for science experime
 * FOSSASIA is supporting development and promotion of ExpEYES project since 2014 mainly through Google Summer of Code
 * The current work is a part of my GSoC-16 project
 
+Link to my GSoC-2016 Project...
+
 ##Communication
 Chat: [Pocket Science Slack Channel](http://fossasia.slack.com/messages/pocketscience/) | [Get an Invite](http://fossasia-slack.herokuapp.com/)
