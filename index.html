@@ -3,7 +3,7 @@
 <html lang="en-us">
   <head>
   <meta charset="UTF-8">
-  <title>GSoC-2016 with FOSSASIA</title>
+  <title>SPOSH</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#157878">
   <link rel="stylesheet" href="css/normalize.css">
@@ -11,321 +11,25 @@
   <link rel="stylesheet" href="css/cayman.css">
   <link rel="stylesheet" href="css/time.css">
   <meta name="author" content="praveen patil (Gnovi)" />
-  <meta name="description" content="Google Summer of Code-2016">
+  <meta name="description" content="Society for Promotion of Open Science Hardware">
   <link rel="favicon" href="favicon.ico">
 </head>
 
 
   <body>
     <section class="page-header">
-  <h1 class="project-name">GSoC-2016 with FOSSASIA</h1>
-  <h2 class="project-tagline"><b>Pocket Science Lab</b></h2>
-  <h2><a href="https://github.com/wavicles">&nbsp;Praveen Patil (Gnovi)</a> </h2>
+  <h1 class="project-name">SPOSH</h1>
+  <h2 class="project-tagline"><b>Society for Promotion of Open Science Hardware</b></h2>
+ 
 </section>
 
 
     <section class="main-content">
 		<h1>Project Abstract:  </h1>
-<h2><a href="https://summerofcode.withgoogle.com/dashboard/project/6093453683326976/overview/">Open Source Science Experiments & Data Acquisition System for Physics Education and Research with ExpEYES - Pocket Science Lab</a></h2>
-<p>
-Pocket Science Lab at FOSSASIA aims to develop open source hardware & software technology to improve science education in the developing world. The main component of this project is <a href="http://expeyes.in/">ExpEYES</a>, an open source hardware and software framework for developing science experiments. This proposal aims to develop open science experiments for various branches of Physics. It also aims to continue improvements in the work done during my <a href="https://www.google-melange.com/archive/gsoc/2015/orgs/fossasia/projects/praveenkumar103.html">GSoC-2015 project</a> “Sensor Plug-ins, Add-on devices and GUI Improvements for ExpEYES”. </p>
-<p> 
-One majour addition to the project is our new open source lab tool <a>PSLab</a>: Pocket Science Lab from FOSSASIA. The new tool is inspired from ExpEYES and supports wireless access to various sensors. </p>
-<h4>Mentors : <a href="https://github.com/mariobehling">Mario Behling</a>, <a href="https://github.com/lorenzgerber">Lorenz Gerber</a>, <a href="https://github.com/dhsgisc">Gi Soong Chi</a>, <a href="https://github.com/hpdang">Hong Phuc Dang</a></h4>
-
-
-      <h1>About FOSSASIA:</h1>
-<p>
-FOSSASIA is an organization supporting developers and makers of Open Technologies in Asia established in 2009. Fossasia develop software applications for social change using a wide-range of technologies. Projects range from Free and Open Source software, to design, graphics and hardware. The members organize and participate in conferences, meetups and code camps. The annual FOSSASIA OpenTechSummit is one of the largest gatherings of developers in Asia and took place in Vietnam, Cambodia and Singapore. 
-More details about Fossasia can be found out on <a href="http://fossasia.org/">official website</a>.
-</p>
-<p>FOSSASIA has undertaken and is supporting many projects which have a potential of bringing a positive social change. ‘ExpEYES : Open Source Science Lab’ is one such project FOSSASIA is supporting since 2014. As a part of GSoC-14 and GSoC-15 we started actively developing Pocket Science Lab as  FOSSASIA’s  important project in the field of science education. This summer as a part of GSoC-2016 we continued this developement which has resulted in a powerful new lab tool "PSLab".
-</p>
-
-
-<h2> Work Completed: </h2>
-</div>
-<div class="">
-
-Hardware design and the necessary software framework for Pocket Science Lab with GUI's for many experiments is complete.  PSLab can function like an oscilloscope, data logger, waveform generator, frequency counter, programmable voltage source etc. It can be plugged in to USB port of PC or SBC's like Raspberry Pi.
-
-It has
-<ul>
-	<li>2 variable sine waves</li>
-	<li>4 programmable  square wave generators</li>
-	<li>3 programmable voltage sources</li>
-	<li>Programmable constant current source</li>
-	<li>4 channels for fetching data</li>
-	<li>Sensor input</li>
-	<li>Berg Strip sockets</li>
-	<li>Qt based apps for controls and various experiments</li>
-	<li>'Design Your Own Experiments' Unique module useful for non-programmers</li>
-	<li>Qt based apps for many high-school level experiments</li>
-	<li>Support for various I2C Sensors</li>
-	<li>Online HTML help pages for experiments</li>
-	
-</ul>
-Wireless sensor interface is also ready and many wireless sensors can be accessed with PSLab.
-
-
-
-<h1> Code Repositories, Commits and Pull Requests : </h1>
-<h3>PSLab : <a href="https://github.com/fossasia/pslab/"</a> Python Library for Communication with PSLab</h3>
-		<a href="https://travis-ci.org/fossasia/pslab">
-			<img src="https://travis-ci.org/fossasia/pslab.svg?branch=development" alt="Travis CI Badge" style="width:100px;height:30px;">
-		</a>
-		<a href="https://www.codacy.com/app/praveenkumar103/pslab">
-			<img src="https://api.codacy.com/project/badge/Grade/ce4af216571846308f66da4b7f26efc7" alt="Codacy Badge" style="width:100px;height:30px;">
-		</a>
-<p>
-    <ul>
-    <li><a href ="https://github.com/fossasia/pslab/pulls?q=is%3Apr+author%3Awavicles+is%3Aclosed">Pull requests made by me.</a></li>
-    <li><a href="https://github.com/fossasia/pslab/commits/development?author=wavicles"> Commits made by me.</a>
-    </li>
-	</ul>
-</p>
-<h3>PSLab-apps : <a href="https://github.com/fossasia/pslab-apps"</a>Qt based GUI applications for PSLab</h3>
-		<a href="https://travis-ci.org/fossasia/pslab-apps">
-			<img src="https://travis-ci.org/fossasia/pslab-apps.svg?branch=development" alt="Travis CI Badge" style="width:100px;height:30px;">
-		</a>
-		<a href="https://www.codacy.com/app/praveenkumar103/pslab-apps">
-			<img src="https://api.codacy.com/project/badge/Grade/8259e5c2220f484e95a88cf4aaed1a96" alt="Codacy Badge" style="width:100px;height:30px;">
-		</a>
-<p>
-	<ul>
-	<li><a href="https://github.com/fossasia/pslab-apps/pulls?q=is%3Apr+author%3Awavicles+is%3Aclosed"> Pull Requests made by me. </a></li> 
-	<li><a href="https://github.com/fossasia/pslab-apps/commits/master?author=wavicles"> Commits made by me. </a>
-	</li>
-	</ul>
-</p>
-<h3>Pocket Science Lab : <a href="https://github.com/fossasia/Pocket-Science-Lab">ExpEYES Programs, Sensor Plugins</a></h3>
-		<a href="https://travis-ci.org/fossasia/Pocket-Science-Lab">
-			<img src="https://travis-ci.org/fossasia/Pocket-Science-Lab.svg?branch=master" alt="Travis CI Badge" style="width:100px;height:30px;">
-		</a>
-		<a href="https://www.codacy.com/app/praveenkumar103/Pocket-Science-Lab/dashboard">
-			<img src="https://api.codacy.com/project/badge/Grade/18fad6e7f96a49fe8ec531ad40149664" alt="Codacy Badge" style="width:100px;height:30px;">
-		</a>
-<p>
-	<ul>
-	<li><a href ="https://github.com/fossasia/Pocket-Science-Lab/pulls?q=is%3Apr+author%3Awavicles+is%3Aclosed">Pull Requests made by me. </a></li>
-	<li><a href ="https://github.com/fossasia/Pocket-Science-Lab/commits/master?author=wavicles">Commits made by me.</a>
-	</li>
-  </ul>
-</p>
-
-<div>
-	
-	
-	<h2>Codacy Certification and Review for PSLab-apps Repository</h2>
-	<a href="https://www.codacy.com/app/praveenkumar103/pslab-apps">
-		<img src="https://github.com/wavicles/wavicles.github.io/blob/master/images/codacyreport.png?raw=true" alt="Codacy Certification" style="width:500px;height:443px;">
-	</a>
-	<a href="https://www.codacy.com/app/praveenkumar103/pslab-apps">
-		<img src="https://github.com/wavicles/wavicles.github.io/blob/master/images/codacy2.png?raw=true" alt="Codacy Project Quality" style="width:500px;height:323px;">
-	</a>
-	<p>
-		I am extremely happy to share that my learning adventure has got  Project Certification at ‘A’ grade. Project quality analysis shows that more than 90% of the work has ‘A‘ grade 
-	</p>
-</div>
-
-</div>
-<h3>Important Blog Posts:</h3>
-<p>
-    <ul>
-	<li> <a href="http://blog.fossasia.org/new-tools-and-sensors-fossasia-pslab-and-expeyes/">New tools and Sensors for Fossasia PSLab and ExpEYES</a></li>
-	<li> <a href="http://blog.fossasia.org/pslab-code-repository-and-installation/">PSLab - Code Repositories and Installation</a></li>
-	<li> <a href="http://blog.fossasia.org/features-and-controls-of-pocket-science-lab/">Features and Controls of Pocket Science Lab</a></li>	
-	<li> <a href="http://blog.fossasia.org/communicating-with-pocket-science-lab-via-usb-and-capturing-and-plotting-sine-waves/">Communicating with PSLab</a></li>
-	<li> <a href="http://blog.fossasia.org/pslab-communication-function-calls/">PSLab Communication Function Calls</a></li>
-	<li> <a href="http://blog.fossasia.org/design-your-own-experiments-with-pslab/">Design Your Own Experiments with PSLab</a></li>
-	<li> <a href="http://blog.fossasia.org/integrating-travis-ci-and-codacy-in-pslab-repositories/">Integrating Travis CI and Codacy in PSLab Repositories</a></li>
-	<li> <a href="http://www.gnovi.in/2016/06/20/fossasia-pslab-gsoc-16-mid-term-report/">GSoC-16 Mid Term Report on my personal blog</a></li>
-	<li> <a href="http://blog.fossasia.org/low-cost-laboratory-everyone-sensor-plug-ins-expeyes-measure-temperature-pressure-humidity-wind/">Sensor Plug-ins for EXpEYES</a></li>
-	<li> <a href="http://www.gnovi.in/2015/08/21/expeyes-gsoc-15-project-report/">Sensor Plug-ins, Add-on devices and GUI Improvements for ExpEYES</a></li>
-	<li> <a href="http://www.gnovi.in/category/gsoc-2014/page/2/">Work related to Plugins for ExpEYES</a></li>
-	</ul>
-</p>
-
-
-<h2> Work to be continued: </h2>
-<p>
-	<ul>
-	<li><a href="https://github.com/fossasia/pslab/issues"> PSLab Issues/work to be done </a></li>
-	<li><a href="https://github.com/fossasia/Pocket-Science-Lab/issues?q=is%3Aopen+is%3Aissue"> Pocket Science Lab Issues to be closed </a> 
-	<li>Add more sensors support</li>
-	<li>Write User Manual and Programmers Manual</li>
-	<li>Making PSLab Accessible through web browsers</li>
-	<li><a href="http://pslab.fossasia.org/">Update PSLab website</a></li>
-	</ul>
-</p>
-<div class="container">
-
-<h1>Work Progress</h1>
-    <ul class="timeline">
-        <li>
-          <div class="timeline-badge success" ><i class="glyphicon glyphicon-check"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Applications Results out!</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time">March 22 April</i></small></p>
-            </div>
-            <div class="timeline-body">
-              <p>Its a hat-trick!!! Selected for GSoC-16 for the third time. Thanks a billion FOSSASIA and GSoC for the support, guidance and the greatest and rarest learning oppurtinity.<br>
-		          </p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Community bonding</h4>
-          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">April 23, 2016 - May 22, 2016</i></small></p>
-            </div>
-            <div class="timeline-body">
-              <p> Get Familiar with organisation members, students <br></p>
-              <p> Started GSoC work at IUAC - Inter University Accelerator Centre, New Delhi with Dr. Ajith Kumar ( Inventor of Expeyes) and Jithin B.P.( Architect of new hardware of PSLab). Designed some new experiments to be done with ExpEYES. Our new lab tool hardware PSLab is almost ready.<br>
-              </p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline">
-          <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Coding Week 1 and 2</h4>
-          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">May 23, 2016 - June 05, 2016</i></small></p>
-            </div>
-            <div class="timeline-body">
-              <p>Python Programs for communication with PSLab. Communication Library has taken a good shape!<br>
-              </p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Coding Week 3 and 4</h4>
-          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">June 06, 2016 - June 19, 2016</i></small></p>
-            </div>
-            <div class="timeline-body">
-              <p>Added tools for analysis. Setup and makefiles for installation. Support for several sensors added. Qt based apps for various experiments and controls added in a seperate repo - PSLab-apps.<br>
-              </p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline">
-          <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Coding Week 5</h4>
-          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">June 20, 2016 - June 26, 2016</i></small></p>
-            </div>
-            <div class="timeline-body">
-              <p>Preparation for Mid-term evaluation. Continued working on Qt based apps. Almost all basic GUI's are now ready. Summary of the work done so far is given in the following blog.<br>
-                <a href="http://blog.fossasia.org/new-tools-and-sensors-fossasia-pslab-and-expeyes/">Blog Post : New tools and Sensors for FOSSASIA PSLAb and ExpEYES</a>
-              </p>
-            </div>
-          </div>
-       </li>
-        <li class="timeline-inverted">
-          <div class="timeline-badge success"><i class="glyphicon glyphicon-credit-card"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Midterm Evaluations</h4>
-          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">June 28</i></small></p>
-          	</div>
-            <div class="timeline-body">
-          		<p>Mid-term evaluation successfully completed. Got positive response and encouraging support from my mentors.<br>
-          		<a href="http://www.gnovi.in/2016/06/20/fossasia-pslab-gsoc-16-mid-term-report/">Blog Post : GSoC-16 Mid Term Report</a>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Coding Week 6 and 7</h4>
-          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">June 27, 2016 - July 10, 2016</i></small></p>
-            </div>
-            <div class="timeline-body">
-              <p>Work on installation procedures for PSLab. Debugging install errors was really challanging work. Details of code repositories and Installation procedure for PSLab is given in the following blog post.<br>
-                <a href="http://blog.fossasia.org/pslab-code-repository-and-installation/">Blog Post: PSLab - Code Repos and Installation</a>
-              </p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline">
-          <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Coding Week 8 and 9</h4>
-          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">July 11, 2016 - July 24, 2016</i></small></p>
-          	</div>
-            <div class="timeline-body">
-              <p>Optimizing the code. Final version of hardware is now ready. Added GUI's for physics and electronics experiments. As suggested by mentors, Added Travis CI testing to the repos. <br>
-              <a href="http://blog.fossasia.org/features-and-controls-of-pocket-science-lab/">Blog Post: PSLab - Features and Controls</a>
-              </p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Coding Week 10 and 11</h4>
-          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">July 25, 2016 - August 7, 2016</i></small></p>
-            </div>
-            <div class="timeline-body">
-              <p>Started working on High School level experiments. Added many simple GUI's for easy access. A small dociumentation on communicating with PSLab is given in the following blog post.<br>
-                <a href="http://blog.fossasia.org/communicating-with-pocket-science-lab-via-usb-and-capturing-and-plotting-sine-waves/">Blog Post: Communicating with PSLab</a><br>
-                <a href="http://blog.fossasia.org/pslab-communication-function-calls/">Blog Post: PSLab Communication Function Calls</a>
-              </p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline">
-          <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Coding Week 12 and 13</h4>
-          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">August 08, 2016 - August 23, 2016</i></small></p>
-            </div>
-            <div class="timeline-body">
-              <p>Unique feature of Experiment Designer is added to PSLab. Work on HTML help files. Conducting various experiments and debugging errors was the main focus during this period. A small static web page using github.io is created for final submission.<br>
-              <a href="http://blog.fossasia.org/design-your-own-experiments-with-pslab/">Blog Post: Design Your Own Experiments</a>
-              </p>
-              <p> 
-              <a href="http://blog.fossasia.org/integrating-travis-ci-and-codacy-in-pslab-repositories/">Blog Post: Integrating Travis CI and Codacy in PSLab Repositories</a>
-              </p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-badge success"><i class="glyphicon glyphicon-credit-card"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Final Evaluations</h4>
-          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">August 24</i></small></p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Work on PSLab will be Continued. Future plans suggested by my mentors include, adding more experiments and developing a stand alone tool that can be accessed through web browsers. This can be a work for another major project for future GSoC :)</h4>
-          	</div>
-          </div>
-        </li>
-
-    </ul>
-</div>
 
 
       <footer class="site-footer">
-  <span class="site-footer-owner"><a href="https://developers.google.com/open-source/gsoc/">Google Summer of Code-2016</a></span>
+  <span class="site-footer-owner"><a href="">SPOSH</a></span>
   <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/pietromenna/jekyll-cayman-theme">Cayman theme</a> by <a href="http://github.com/jasonlong">Jason Long</a>.</span>
 </footer>
 
